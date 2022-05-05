@@ -229,7 +229,8 @@ class AddAward extends React.Component<IAwardProps, IAwardState> {
                                 <Text content={this.state.invalidLinkText} className="field-error-message" error size="medium" />
                             </Flex.Item>
                         </Flex>
-                        <div>
+                        <div style={{backgroundColor:"green"}}>
+                            <p>Test Text</p>
                             <Input placeholder={t('awardLinkPlaceholder')} fluid required className="add-form-input"
                                 value={this.state.awardImageLink}
                                 onChange={this.handleInputImageChange}
