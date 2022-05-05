@@ -166,7 +166,7 @@ div-shadow-nomination {
 }
 
 .commandbar-wrapper {
-    background-color: #f44336;
+    background-color: #fbfbfb;
     margin-top: 0.7rem;
     padding: 4px 2px 4px 2px;
 }
@@ -181,6 +181,7 @@ div-shadow-nomination {
     margin: 0;
     min-width: 73px !important;
     padding-left: 0 !important;
+    background-color: black;
 }
 
 .delete-button {
