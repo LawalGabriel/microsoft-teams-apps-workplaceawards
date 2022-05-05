@@ -212,7 +212,7 @@ class AddAward extends React.Component<IAwardProps, IAwardState> {
                                 {this.getRequiredFieldError(this.state.isDescriptionValuePresent, t)}
                             </Flex.Item>
                         </Flex>
-                        <div className="add-form-input">
+                        <div className="add-form-input" style={{backgroundColor:"green"}}>
                             <TextArea placeholder={t('awardDescriptionPlaceholder')}
                                 fluid required maxLength={300}
                                 className="response-text-area"
